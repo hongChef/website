@@ -1,0 +1,30 @@
+.sit_title { width: 300px; font-family: 'Do Hyeon', sans-serif; font-size: 2rem;
+margin: 2.75rem 12rem; border-bottom: 3px solid #9796f0; text-align: center; }
+.sit_table {
+  width: 450px; height: 350px;
+  margin: 5.7vw 15vw; background-color: #fff; border: 1px solid #131e22;
+}
+
+.sit {
+  width: 50px; height: 50px;
+  float: left; margin: 3.125vw 2.8vw;
+  box-shadow: 4px 4px 5px #888;
+  background-color: #6d4c41;
+}
+.sit_table  img {width: 100%; height: 100%;}
+.forth_sit { width: 90px; height: 90px;
+clear: both; content: "";  float: left; margin-left: 7.5vw;
+}
+.two_sit { width: 90px; height: 45px; float: left;
+margin: 7.5vw 14vw }
+.sit_pick { width: 200px; height: 70px; margin: 5vw 32vw;
+   background-color: #131e22; border-radius: 50px;  }
+.sit_pick > a { font-family: 'Do Hyeon', sans-serif;
+font-weight: bold; font-size: 2rem; line-height: 200%;
+  color:#fff;  text-decoration: none;}
+.select_pick { transform: scale(1.2); background-color: #40241a;}
+.playlist { width: 100%; height: 40px; line-height: 40px;
+  font-family: 'Noto Sans KR', sans-serif; font-size: 1.3rem;
+background-color: #f8bbd0; text-align: center; margin-top: 11.2vw;
+display: none;}
+.playlist>a {color: #000; text-decoration: none;}

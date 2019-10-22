@@ -1,0 +1,123 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>owl kitchen main</title>
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Gamja+Flower|Hi+Melody&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gaegu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../css/reset.css">
+    <link rel="stylesheet" href="./../css/common.css">
+    <link rel="stylesheet" href="./../css/main.css">
+
+  </head>
+  <body>
+      <header class="hidden" id="header">
+      <ul>
+        <li class="tabBar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </li>
+        <li class="logo"><img src="./../img/logo.png" alt=""></li>
+        <li class="icon"><img src="./../img/icon.png" alt=""></li>
+      </ul>
+    </header>
+    <div class="container hidden" id="container">
+      <div class="menu-bar">
+        <ul>
+          <li>
+            <a href="#">오늘의 추천 메뉴</a>
+          </li>
+          <li>
+            <a href="#">매장위치/영업시간</a>
+          </li>
+          <li>
+            <a href="#">예약확인</a>
+          </li>
+        </ul>
+      </div>
+      <div class="user">
+        <div class="my-profile">
+          <div class="photo"><img src="./../img/profile1.jpg" alt="나의 프로필 사진"></div>
+          <div class="name">고양이 님</div>
+          <div class="info">
+            <div class="visit">&nbsp;&nbsp;<span>5</span> <br />visit</div>
+            <div class="review1">&nbsp;&nbsp;&nbsp;<span>1</span> <br>review</div>
+          </div>
+        </div>
+        <div class="food">
+          <p>favorite food</p>
+          <img src="./../img/food-1.jpg" alt="좋아하는 음식">
+          <img src="./../img/food-2.jpg" alt="좋아하는 음식">
+          <img src="./../img/food-3.jpg" alt="좋아하는 음식">
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="menu">
+          <ul>
+            <li class="today"><p>오늘의 메뉴</p>
+            </li>
+            <li class="review"><p>&nbsp;리뷰보기</p>
+            </li>
+            <div class="todayChildren">
+              <img src="./../img/main-dish-1.jpg" alt="등심 스테이크 19900원" class="steak">
+              <p class="fr1">sirloin steak<br /><br />&#8361;19900</p>
+              <img src="./../img/main-dish-2.jpg" alt="팟타이 15000원">
+              <p class="fr1">pad thai<br /><br />&#8361;15000</p>
+              <img src="./../img/main-dish-3.jpg" alt="아이스크림 5000원" >
+              <p class="fr1">ice creame<br /><br />&#8361;5000</p>
+            </div>
+            <div class="reviewChildren">
+              <img src="./../img/profile1.jpg" alt="사용자의 프로필 사진" class="imgTop">
+              <p class="fr2">둘이 와도<br />혼자와도 좋은<br />올빼미식당<br /><br />2 days ago</p>
+              <img src="./../img/profile2.jpg" alt="사용자의 프로필 사진">
+              <p class="fr2">분위기 최고!<br />데이트 성공적!<br /><br />1 month ago</p>
+              <img src="./../img/profile3.jpg" alt="사용자의 프로필 사진">
+              <p class="fr2">나만 알고 싶은<br />아지트 같은 곳<br /><br />2 month ago</p>
+            </div>
+      <div id="book"><a>예약하기</a></div>
+      <div id="more" class="more"><a href="#reviewChildren2" id="more2" class="more2">more +</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="reviewChildren2" id="reviewChildren2">
+    <a href="#header"><img src="./../icon/up-arrow-1.png" alt="위로 이동하는 화살표" class="up"></a>
+    <img src="./../img/profile1.jpg" alt="사용자의 프로필 사진" class="img imgTop">
+    <p class="fr3">둘이 와도<br />혼자와도 좋은<br />올빼미식당<br /><br />2 days ago</p>
+    <img src="./../img/profile2.jpg" alt="사용자의 프로필 사진" class="img">
+    <p class="fr3">분위기 최고!<br />데이트 성공적!<br /><br />1 month ago</p>
+    <img src="./../img/profile3.jpg" alt="사용자의 프로필 사진" class="img">
+    <p class="fr3">나만 알고 싶은<br />아지트 같은 곳<br /><br />2 month ago</p>
+    <form class="review_input">
+      <input type="text" id="review_input">
+    </form>
+    <div class="more3"><a>review</a></div>
+  </div>
+  </div>
+      <div class="modal modal-popup" id="modal">
+          <div class="line">
+            <div class="p"><p>예약하기</p></div>
+            <form id="form">
+              <input class="input" type="text" name="name"
+               data-value="001" placeholder="&nbsp;&nbsp;이름을 입력하세요." size="25px" >
+              <input class="input" type="text" data-value="002" name="number"
+              placeholder="&nbsp;&nbsp;전화번호를 입력하세요." size="25px" >
+              <button type="submit" id="ok"><a href="res.html">OK</a></button>
+            </form>
+
+          </div>
+          <div class="x"><p>&#10006;</p></div>
+      </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./../js/mouse-event.js"></script>
+  <script type="text/javascript" src="./../js/modal.js"></script>
+  <script type="text/javascript" src="./../js/close-btn.js"></script>
+  <script type="text/javascript" src="./../js/reviewBtn.js"></script>
+  <script type="text/javascript" src="./../js/todayBtn.js"></script>
+  <script type="text/javascript" src="./../js/moreBtn.js"></script>
+  <script type="text/javascript" src="./../js/tab-bar.js"></script>
+  <script type="text/javascript" src="./../js/user-btn.js"></script>
+  <script type="text/javascript" src="./../js/review_btn.js"></script>
+  <script type="text/javascript" src="./../js/serializeArray.js"></script>
+  </body>
+</html>

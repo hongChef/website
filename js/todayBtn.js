@@ -1,0 +1,19 @@
+var today = document.getElementsByClassName("today")[0];
+var todayChildren = window.document.getElementsByClassName('todayChildren')[0];
+var review = document.getElementsByClassName("review")[0];
+var reviewChildren = window.document.getElementsByClassName('reviewChildren')[0];
+var todayP = today.childNodes[0];
+var reviewP = review.childNodes[0];
+var book = document.getElementById("book");
+var more = document.getElementById("more");
+var reviewChildren2 = document.getElementById('reviewChildren2');
+var more = document.getElementById('more');
+today.onclick = function() {
+  todayP.style.borderBottom = "3px solid #9796f0";
+  reviewP.style.borderBottom = "0px";
+  todayChildren.style.display = "block";
+  book.style.display = "block";
+  reviewChildren.style.display = "none";
+  more.style.display = "none";
+  reviewChildren2.style.display = "none";
+}

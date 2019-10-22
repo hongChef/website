@@ -1,0 +1,22 @@
+.modal-popup { width: 800px; height: 800px; border: 3px solid #131e22;}
+.modal .p, .modal .book {width: 30%; float: left; margin-left: 18.75rem;}
+.p { font-family: 'Handlee', cursive; font-family: 'Do Hyeon', sans-serif;
+color: #9796f0; text-align: center; font-size: 3.75rem; border-bottom: 3px solid #9796f0;
+margin-bottom: 0; padding-bottom: 0;}
+.p p{ margin-bottom: 0; }
+.input { height: 80px; margin-top: 3.75rem; margin-left: 6.25rem; font-size: 2.5rem;
+text-align: left; border: 3px solid #9796f0;
+box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.2);
+font-family: 'Do Hyeon', sans-serif;
+border-radius: 11px;  }
+.modal .ok { width: 400px; height: 120px;
+   background-color: #9796f0; border-radius: 50px; margin-left: 13.13rem;
+ margin-top: 5.625rem; }
+ .x { width: 60px; height: 60px; border-radius: 70%; font-size: 3.125rem; text-align: center;
+   color: #fff; background-color:  #9796f0;  margin-left: 23.75rem; margin-top: 7.313rem;
+position: fixed; z-index: 1000;  }
+ .x > p { margin-top: 0;}
+.ok p{font-family: 'Handlee', cursive; font-family: 'Do Hyeon',
+  sans-serif; font-weight: bold; font-size: 3.75rem;
+  color:#fff; text-align: center; margin: 0;
+}

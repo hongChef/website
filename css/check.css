@@ -1,0 +1,9 @@
+html { font-size: 16px; }
+.check_content { width: 600px; height: 400px; text-align: center;
+ line-height: 40px; margin-left: 2.604vw;
+font-size: 1.5rem; font-family: 'Song Myung', serif;}
+.check_content>p{font-family: 'Black Han Sans', sans-serif; font-size: 2.3rem;
+margin-top: 11.979vw; margin-bottom: 8.854vw;}
+.check_icon { width: 70px; height: 70px; background-color: #c48b9f;
+border-radius: 50%; margin: 8.333vw 37vw; }
+.check_icon img {width: 60%; margin: 2.083vw;}

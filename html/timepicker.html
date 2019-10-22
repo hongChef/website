@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>timepicker</title>
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Gamja+Flower|Hi+Melody&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gaegu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../css/reset.css">
+    <link rel="stylesheet" href="./../css/common.css">
+    <link rel="stylesheet" href="./../css/timepicker.css">
+
+
+  <body>
+    <header class="hidden" id="header">
+    <ul>
+      <li class="tabBar">
+          <span></span>
+          <span></span>
+          <span></span>
+      </li>
+      <li class="logo"><img src="./../img/logo.png" alt=""></li>
+      <li class="icon"><img src="./../img/icon.png" alt=""></li>
+    </ul>
+  </header>
+  <div class="container" id="container">
+    <div class="menu-bar">
+      <ul>
+        <li>
+          <a href="#">나만의 메뉴</a>
+        </li>
+        <li>
+          <a href="#">자주 찾는 메뉴</a>
+        </li>
+        <li>
+          <a href="#">오늘의 추천 메뉴</a>
+        </li>
+      </ul>
+    </div>
+    <div class="user">
+      <div class="my-profile">
+        <div class="photo"><img src="./../img/profile1.jpg" alt="나의 프로필 사진"></div>
+        <div class="name">고양이 님</div>
+        <div class="info">
+          <div class="visit">&nbsp;&nbsp;<span>5</span> <br />visit</div>
+          <div class="review1">&nbsp;&nbsp;&nbsp;<span>1</span> <br>review</div>
+        </div>
+      </div>
+      <div class="food">
+        <p>favorite food</p>
+        <img src="./../img/food-1.jpg" alt="좋아하는 음식">
+        <img src="./../img/food-2.jpg" alt="좋아하는 음식">
+        <img src="./../img/food-3.jpg" alt="좋아하는 음식">
+      </div>
+    </div>
+
+    <p class="time_title">시간을 선택해주세요.</p>
+    <div class="timepiki">
+        <div class="time">
+        <img src="./../img/up-arrow.png" alt="시간 올림 화살표" class="arrow">
+        <div id="timearea">default</div>
+        <img src="./../img/angle-arrow-down.png" alt="시간 내림 화살표" class="arrow">
+      </div>
+      <hr>
+      <button class="time_pick"><a href="./sitpicker.html">확인</a></button>
+    </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./../js/user-btn.js"></script>
+    <script type="text/javascript" src="./../js/tab-bar.js"></script>
+    <script type="text/javascript" src="./../js/timepicker.js"></script>
+
+    </body>
+  </html>
