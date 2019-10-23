@@ -172,4 +172,5 @@ position: absolute; z-index: 33; top: -50;}
 
 .container { width: 100%; height: 770px; background-color: #ffdede;
   position: relative; overflow-y: hidden; overflow-x: hidden;
+  padding-top: 30px;
 }
