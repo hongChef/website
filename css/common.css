@@ -6,7 +6,41 @@ background: -webkit-linear-gradient(to left, #fbc7d4, #9796f0);  /* Chrome 10-25
 background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/* @media all and (min-width: 600px) and (max-width: 768px) 고정비율 */
+/*
+## Device = Desktops
+## Screen = 1281px to higher resolution Desktops
+*/
+
+/* @media (min-width: 1281px) {
+
+}*/
+
+/*
+## Device = Laptops, Desktops
+## Screen = B/w 1025px to 1280px
+*/
+
+/* @media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+*/
+
+/*
+## Device = Tablets, Ipads (portrait),
+## Screen = B/w 768px to 1024px
+*/
+
+/*
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+*/
+
+/*
+## Device = Low Resolution Tablets, Mobiles (Landscape)
+## Screen = B/w 481px to 767px
+*/
+
 @media all and (min-width: 600px) and (max-width: 768px) {
   header {
     height: 72px;
@@ -21,6 +55,26 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
 .tabBar > span { width: 34px; height: 3px;}
 .icon { width: 100px;}
 .icon > img{ width: 41px;}
+}
+
+/*
+## Device = Most of the Smartphones Mobiles (Portrait)
+## Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 599px) {
+  header {
+    height: 54px;
+  }
+  .logo >img {
+    width: 80px;
+}
+.tabBar {
+    height: 30px;
+}
+.tabBar > span { width: 30px; height: 2px;}
+.icon { width: 90px;}
+.icon > img{ width: 40px; margin-top: -5px;}
 }
 
 header > ul { height: inherit; box-sizing: border-box; }

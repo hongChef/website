@@ -1,12 +1,12 @@
-.timepiki { width: 400px; height: 300px; border: 1px solid #333;
-background-color: #fff; margin: 10vw 20vw; background-color: #dbdbdb; }
-.time_title { width: 300px; font-family: 'Do Hyeon', sans-serif; font-size: 1.75rem;
-margin: 4vw 26vw; border-bottom: 3px solid #9796f0; text-align: center; }
-.time { width: 400px; height: 250px; margin: 0vw 8vw;}
-.time > img { width: 40px; height: 40px; margin: 1.5rem 7.25rem;}
-#timearea {font-size: 3rem; margin: 2rem 4rem;}
-hr { margin-top: 13vw; margin-bottom: 8vw;}
-.time_pick { width: 200px; height: 70px; margin-left: 14vw;
+.timepiki { width: 280px; height: 200px; border: 1px solid #333;
+background-color: #fff; margin: 15vw auto; background-color: #dbdbdb; }
+.time_title { width: 220px; font-family: 'Do Hyeon', sans-serif; font-size: 1.75rem;
+margin: 4vw auto; border-bottom: 3px solid #9796f0; text-align: center; }
+.time { width: 100px; height: 100px; margin: 0 auto; text-align: center;}
+.time > img { width: 40px; height: 40px; margin: 20px;}
+#timearea {font-size: 2rem; text-align: center;}
+hr { margin-top: 30vw; margin-bottom: 8vw;}
+.time_pick { width: 200px; height: 70px; margin: 0 15%;
    background-color: #131e22; border-radius: 50px;  }
 .time_pick > a { font-family: 'Do Hyeon', sans-serif;
 font-weight: bold; font-size: 2rem; line-height: 200%;
