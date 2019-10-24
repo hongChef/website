@@ -1,7 +1,7 @@
 html {font-size: 16px;}
 .wrap {
-  width: 450px; height: 760px; background-color: #fff4e0;
-  margin: -3.625rem auto;
+  width: 450px; height: 760px; background-color: #fff;
+  margin: -10px auto;
 }
 
 /*
@@ -67,12 +67,16 @@ html {font-size: 16px;}
 ## Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 600px) {
+@media (min-width: 470px) and (max-width: 600px) {
   .today, .review {
     font-size: 27px;
   }
+  .todayChildren {
+    margin-right: 2vw; margin-left: 3vw;
+  }
   .todayChildren > img{
     width: 200px; height: 120px;
+    margin-top: 4vw; margin-right: 4vw;
   }
   .fr1 {
     padding-top: 10px;
@@ -90,18 +94,47 @@ html {font-size: 16px;}
   }
 }
 
-.menu li {width: 45%; float: left; margin-left: 20px;
+@media (min-width: 320px) and (max-width: 470px) {
+  .wrap {
+    width: 400px;
+  }
+  .today, .review {
+    font-size: 20px;
+  }
+  .todayChildren {
+    margin-top: 10px;
+  }
+  .todayChildren > img{
+    width: 170px; height: 100px;
+    margin-top: 20px; margin-left: 25px;
+  }
+  .fr1 {
+    padding-top: 6px;
+    padding-left: 4px;
+    margin-left: 20px;
+    margin-top: 5vw;
+    font-size: 1.5rem;
+  }
+
 }
+.menu > ul { display: flex;}
+.menu li {flex: 1; }
+.today { float: left; }
+.review { display: inline-block; }
 
 .today p{border-bottom: 3px solid #9796f0;}
-.today, .review { font-weight: bold;  margin-top: 13vw;
+.today, .review { font-weight: bold;  margin-top: 4vw;
 text-align: center;
-font-family: 'Handlee', cursive; font-family: 'Do Hyeon', sans-serif;
+font-family: 'Do Hyeon', sans-serif;
 }
-.todayChildren {  margin-right: 2vw; margin-left: 3vw;}
-.todayChildren > img { margin-top: 4vw; margin-right: 4vw;}
+
+.todayChildren {
+  width: 100%; height: 400px;
+  clear: both; content: " ";
+}
 .fr1{  font-family: 'Handlee', cursive; font-family: 'Do Hyeon', sans-serif;
-color: #131e22; text-align: center; float: right; margin-top: 5vw; font-size: 1.5rem; text-align: right;
+color: #131e22;  display: inline-block; vertical-align: 6vw;
+margin-top: 5vw; font-size: 1.5rem; text-align: right;
  border: 2px solid #131e22;
  }
 
