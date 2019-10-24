@@ -99,19 +99,20 @@ html {font-size: 16px;}
     width: 400px;
   }
   .today, .review {
-    font-size: 20px;
+    font-size: 25px;
+    padding-top: 10px;
   }
   .todayChildren {
     margin-top: 10px;
   }
   .todayChildren > img{
     width: 170px; height: 100px;
-    margin-top: 20px; margin-left: 25px;
+    margin-top: 50px; margin-left: 20px;
   }
   .fr1 {
     padding-top: 6px;
     padding-left: 4px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 5vw;
     font-size: 1.5rem;
   }
@@ -133,7 +134,7 @@ font-family: 'Do Hyeon', sans-serif;
   clear: both; content: " ";
 }
 .fr1{  font-family: 'Handlee', cursive; font-family: 'Do Hyeon', sans-serif;
-color: #131e22;  display: inline-block; vertical-align: 6vw;
+color: #131e22;  display: inline-block; vertical-align: 5vw;
 margin-top: 5vw; font-size: 1.5rem; text-align: right;
  border: 2px solid #131e22;
  }
@@ -166,8 +167,8 @@ clear: both; content: ""; }
 #review_input {margin: 6.25rem; width: 780px; height: 100px;
 background-color: #cb9ca1; font-size: 2.5rem; }
 .container #book { width: 120px; height: 50px;
-   background-color: #131e22; border-radius: 50px; margin-left: 10rem;
- margin-top: 3rem; }
+   background-color: #131e22; border-radius: 50px; margin-left: 9rem;
+ margin-top: 8rem; }
  a { text-decoration: none; }
 #book>a{ font-family: 'Do Hyeon', sans-serif;
 font-weight: bold; font-size: 1.2rem; line-height: 260%;
