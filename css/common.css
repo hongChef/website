@@ -48,13 +48,12 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
   .logo >img {
     width: 96px;
 }
-.tabBar {
 
-    height: 30px;
-}
 .tabBar > span { width: 34px; height: 3px;}
 .icon { width: 100px;}
 .icon > img{ width: 41px;}
+.food, .user > p {margin: 0 13.3vw}
+.food img { height: 200px;}
 }
 
 /*
@@ -73,6 +72,9 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
 .tabBar > span { width: 30px; height: 2px;}
 .icon { width: 90px;}
 .icon > img{ width: 40px; margin-top: -5px;}
+.user > p { margin-left: 9.756vw}
+.food { margin: 0 9.756vw;}
+.food img { height: 150px;}
 }
 
 header > ul { height: inherit; display: flex; align-items: center;
@@ -128,50 +130,55 @@ transition: 0.2s;}
   transition: 0.5s;
   transform: translateX(200%);
 }
-.my-profile { width: 340px; height: 300px; border: 2px solid #131e22;
-padding-top: 6.25rem; margin: 4.25rem auto;
+.my-profile { width: 300px; height: 340px; border: 2px solid #131e22;
+ margin: 2.25rem auto;
  border-radius: 30px; background-color: #fff;}
 .photo { width: 120px; height: 120px;
-  margin-left: 7rem; position: relative;}
+  margin: 2rem auto; position: relative;}
 .photo > img { width: inherit; height: inherit; border-radius: 150px;
-position: absolute; z-index: 33; top: -50;}
+align-content: center; }
 .name, .info span, .info p { font-family: 'Handlee', cursive; font-family: 'Do Hyeon', sans-serif; }
-.name { font-size: 1.7rem; margin-left: 8rem;}
-.visit, .review1 { float: left; margin-top: 3rem; margin-left: 6rem; color: #333; font-size: 1rem;}
+.name { font-size: 1.7rem; text-align: center; margin-top: 10px; }
+.visit, .review1 { display: inline-block; width: 46%; text-align: center;
+  color: #333; font-size: 1rem;}
+.info { width: inherit; height: inherit; margin-top: 30px;}
 .info span { font-size: 1.7rem; }
-.food > p { font-size: 1rem; }
-.food { margin-left: 18.5vw; margin-top: -2rem;}
-.food img { height: 200px;}
+.user > p { font-size: 1rem; }
+.food { width: inherit; height: 200px; display: flex;}
+
 
 .active { transform: translateX(0); }
 .menu-bar ul {
+  width: inherit;
+  height: inherit;
   margin: 0;
   padding: 0;
   float: left;
 }
 .menu-bar ul li {
+  height: 30%;
+  width: 100%;
+  display: table;
   list-style: none;
 }
 .menu-bar ul li a {
   list-style: none;
   font-family: 'Do Hyeon', sans-serif;
   text-align: center;
-  margin-top: 8rem; font-size: 2rem;
-  margin-left: 34vw;
-  line-height: 60px;
+  font-size: 2rem;
+  display: table-cell;
+  vertical-align: middle;
   font-familly: sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   color: #131e22;
   text-decoration: none;
-  display: block;
   border-right: 1px solid rgba(0,0,0,0.1);
 }
 
 
 
 
-.container { width: 100%; height: 770px; background-color: #ffdede;
-  position: relative; overflow-y: hidden; overflow-x: hidden;
-
+.container { width: 100%; height: 670px; background-color: #ffdede;
+  position: relative; overflow-y: scroll; overflow-x: scroll;
 }
