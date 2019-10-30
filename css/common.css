@@ -20,33 +20,68 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
 ## Screen = B/w 1025px to 1280px
 */
 
-/* @media (min-width: 1025px) and (max-width: 1280px) {
+ @media (min-width: 1025px) and (max-width: 1280px) {
+   header {
+     height: 54px;
+   }
+   .menu-bar {
+     height: 800px;
+   }
+   .logo >img {
+     width: 80px;
+   }
+   .tabBar > span { width: 30px; height: 3px;}
+   .icon { width: 100px;}
+   .icon > img{ width: 41px;}
+   .food, .user > p {margin: 0 13.3vw}
+   .food img { height: 200px;}
 
+   .container { height: 800px; }
+   .user { height: 800px; }
 }
-*/
+
 
 /*
 ## Device = Tablets, Ipads (portrait),
 ## Screen = B/w 768px to 1024px
 */
 
-/*
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    height: 54px;
+  }
+  .menu-bar {
+    height: 800px;
+  }
+  .logo >img {
+    width: 80px;
 }
-*/
+.tabBar > span { width: 30px; height: 3px;}
+.icon { width: 100px;}
+.icon > img{ width: 41px;}
+.food, .user > p {margin: 0 28vw}
+.food img { height: 200px;}
+
+.container { height: 800px; }
+.user { height: 800px; }
+}
+
 
 /*
 ## Device = Low Resolution Tablets, Mobiles (Landscape)
 ## Screen = B/w 481px to 767px
 */
 
-@media all and (min-width: 600px) and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 768px) {
   header {
-    height: 72px;
+    height: 54px;
+  }
+  .menu-bar {
+    height: 770px;
   }
   .logo >img {
-    width: 96px;
+    width: 80px;
 }
 
 .tabBar > span { width: 34px; height: 3px;}
@@ -54,6 +89,8 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
 .icon > img{ width: 41px;}
 .food, .user > p {margin: 0 13.3vw}
 .food img { height: 200px;}
+.container { height: 670px; }
+.user { height: 770px; }
 }
 
 /*
@@ -65,6 +102,9 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
   header {
     height: 54px;
   }
+  .menu-bar {
+    height: 770px;
+  }
   .logo >img {
     width: 80px;
 }
@@ -75,6 +115,7 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
 .user > p { margin-left: 9.756vw}
 .food { margin: 0 9.756vw;}
 .food img { height: 150px;}
+.container { height: 670px; }
 }
 
 header > ul { height: inherit; display: flex; align-items: center;
@@ -83,7 +124,6 @@ header li { text-align: center;}
 .tabBar, .icon {flex: 1;}
 .tabBar { margin-left: 20px;}
 .logo{flex: 3; margin-right: 20px;}
-
 
 .tabBar > span {  background: #262626;
 display: block; top: calc(50% - 1px);left: calc(50% - 15px);
@@ -111,7 +151,6 @@ transition: 0.2s;}
   top: 0;
   left: 0;
   width: 100%;
-  height: 770px;
   background: #9796f0;
   transition: 0.5s;
   transform: translateX(-100%);
@@ -126,7 +165,6 @@ transition: 0.2s;}
   top: 0;
   left: 0;
   width: 100%;
-  height: 770px;
   transition: 0.5s;
   transform: translateX(200%);
 }
@@ -179,6 +217,6 @@ align-content: center; }
 
 
 
-.container { width: 100%; height: 670px; background-color: #ffdede;
-  position: relative; overflow-y: scroll; overflow-x: scroll;
+.container { width: 100%;  background-color: #ffdede;
+  position: relative; overflow-y: scroll; overflow-x: hidden;
 }

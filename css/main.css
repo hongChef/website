@@ -1,7 +1,6 @@
 html {font-size: 16px;}
 .wrap {
   width: 450px; height: 760px; background-color: #fff;
-  margin: -10px auto;
 }
 
 /*
@@ -17,22 +16,123 @@ html {font-size: 16px;}
 ## Device = Laptops, Desktops
 ## Screen = B/w 1025px to 1280px
 */
+/*
+ @media (min-width: 1025px) and (max-width: 1280px) {
+   .today, .review {
+     font-size: 40px;
+   }
+   .todayChildren > img{
+     width: 200px; height: 120px;
+     margin-left: 3.333vw;
+   }
+   .container #book {
+      margin-top: 20vw;
+   }
+   .fr1 {
+     padding-top: 10px;
+     padding-left: 40px;
+     margin-left: 40px;
+   }
+   .reviewChildren { width: inherit; height: inherit;}
+   .reviewChildren > img {
+     width: 160px; height: 140px;
+   }
+   .reviewChildren > img {
+     margin-right: 80px;
+     margin-top: 20px;
+   }
+   .reviewChildren2 > img {
+     width: 160px; height: 140px;
+     margin-right: 10%;
+     margin-top: 4%;
+     margin-left: 20%;
+   }
+   .fr2, .fr3 {
+     width: 150px;
+     font-size: 1.3rem;
+     padding-top: 30px;
+     padding-left: 20px;
+     margin-top: 6vw;
+   }
+   #more {  margin-top: 6rem; }
+   #review_input {
+     margin-top: 20px; margin-left: 26.667vw;
+   }
 
-/* @media (min-width: 1025px) and (max-width: 1280px) {
+   .line {
+     margin-left: 10vw;
+   }
+} */
 
-}
-*/
 
 /*
 ## Device = Tablets, Ipads (portrait),
 ## Screen = B/w 768px to 1024px
 */
 
-/*
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .wrap {
+    width: 840px;
+    margin: -20px auto;
+  }
+  .today, .review {
+    font-size: 35px;
+  }
+  .todayChildren > img{
+    width: 300px; height: 180px;
+    margin-left: 5vw;
+  }
+  .container #book {
+     margin-top: 28vw;
+     margin-left: 24rem;
+  }
+  .fr1 {
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-left: 40px;
+    margin-left: 160px;
+  }
+  .reviewChildren { width: inherit; height: inherit;}
+  .reviewChildren > img {
+    width: 230px; height: 190px;
+    margin-right: 190px;
+    margin-top: 22px;
+    margin-left: 100px;
+  }
+  .reviewChildren2 {
+    height: 854px;
+  }
+  .reviewChildren2 > img {
+    width: 230px; height: 190px;
+    margin-right: 20%;
+    margin-top: 1%;
+    margin-left: 18%;
+  }
+  .fr2, .fr3 {
+    width: 200px;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-left: 20px;
+
+  }
+  #more {  margin-left: 24rem; }
+  .container .more  { top: 740; }
+  #review_input {
+    width: 400px;
+    margin-top: 40px; margin-left: 30vw;
+  }
+.modal-popup {
+  top: 30%;
+  left: 22%;
 }
-*/
+  .line {
+    margin-left: 10vw;
+  }
+.x { left: 71%; }
+.more3 { margin-left: 45vw;}
+}
+
 
 /*
 ## Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -40,6 +140,10 @@ html {font-size: 16px;}
 */
 
 @media all and (min-width: 600px) and (max-width: 768px) {
+  .wrap {
+    width: 450px;
+    margin: -10px auto;
+  }
   .today, .review {
     font-size: 30px;
   }
@@ -48,17 +152,23 @@ html {font-size: 16px;}
     margin-left: 3.333vw;
   }
   .fr1 {
+    font-size: 1.5rem;
     padding-top: 10px;
     padding-left: 40px;
     margin-left: 40px;
   }
+  .container #book {
+     margin-top: 8rem;
+     margin-left: 9rem;
+  }
   .reviewChildren { width: inherit; height: inherit;}
   .reviewChildren > img {
     width: 160px; height: 140px;
-  }
-  .reviewChildren > img {
     margin-right: 80px;
     margin-top: 20px;
+  }
+  .reviewChildren2 {
+    height: 760px;
   }
   .reviewChildren2 > img {
     width: 160px; height: 140px;
@@ -73,14 +183,18 @@ html {font-size: 16px;}
     padding-left: 20px;
     margin-top: 6vw;
   }
+  #more {  margin-top: 2.5rem; }
+  .container .more  { top: 560; }
   #review_input {
+    width: 300px;
     margin-top: 20px; margin-left: 26.667vw;
   }
-
+  .modal-popup { top: 18%; left: 6%; }
   .line {
     margin-left: 10vw;
   }
-
+  .x { left: 40%; }
+  .more3 { margin-left: 40vw;}
 }
 
 /*
@@ -89,6 +203,10 @@ html {font-size: 16px;}
 */
 
 @media (min-width: 470px) and (max-width: 599px) {
+  .wrap {
+    width: 450px;
+    margin: -10px auto;
+  }
   .today, .review {
     font-size: 27px;
   }
@@ -99,9 +217,17 @@ html {font-size: 16px;}
     width: 200px; height: 120px;
     margin-top: 4vw; margin-right: 4vw;
   }
+  .container #book {
+     margin-top: 8rem;
+     margin-left: 9rem;
+  }
   .fr1 {
+    font-size: 1.5rem;
     padding-top: 10px;
     padding-left: 40px;
+  }
+  .reviewChildren2 {
+    height: 760px;
   }
   .reviewChildren2 > img{
     width: 160px; height: 140px;
@@ -116,6 +242,8 @@ html {font-size: 16px;}
   .fr2 {
     margin-top: 10vw;
   }
+  #more {  margin-top: 2.5rem; }
+  .container .more  { top: 560; }
   .fr2, .fr3 {
     font-size: 1.3rem;
     padding-top: 4vw;
@@ -125,17 +253,21 @@ html {font-size: 16px;}
     margin-top: 7vw;
   }
   #review_input {
+    width: 300px;
     margin-top: 20px; margin-left: 26.667vw;
   }
-
+  .modal-popup { top: 18%; left: 6%; }
   .line {
     margin-left: -5vw;
   }
+  .x { left: 40%; }
+  .more3 { margin-left: 40vw;}
 }
 
 @media (min-width: 320px) and (max-width: 469px) {
   .wrap {
     width: 400px;
+    margin: -10px auto;
   }
   .today, .review {
     font-size: 25px;
@@ -148,6 +280,10 @@ html {font-size: 16px;}
     width: 170px; height: 100px;
     margin-top: 50px; margin-left: 20px;
   }
+  .container #book {
+     margin-top: 8rem;
+     margin-left: 9rem;
+  }
   .reviewChildren > img, .reviewChildren2 > img{
     width: 140px; height: 120px;
   }
@@ -155,12 +291,16 @@ html {font-size: 16px;}
     margin-left: 30px;
     margin-top: 40px;
   }
+  .reviewChildren2 {
+    height: 760px;
+  }
   .reviewChildren2 > img{
     width: 140px; height: 120px;
     margin-left: 10%;
     margin-top: 4vw;
   }
   .fr1 {
+    font-size: 1.5rem;
     padding-top: 6px;
     padding-left: 4px;
     margin-left: 40px;
@@ -172,11 +312,16 @@ html {font-size: 16px;}
     padding-top: 0rem; padding-left: 3.2vw;
     vertical-align: 5vw; margin-left: 14vw;
   }
+  #more {  margin-top: 2.5rem; }
+  .container .more  {top:560;}
   #review_input {
+    width: 300px;
     margin-top: 50px;
     margin-left: 20vw;
   }
   .more3 { margin-top: 30px;}
+  .modal-popup { top: 18%; left: 6%; }
+  .x { left: 40%; }
 
 }
 .menu { width: inherit; height: inherit;}
@@ -197,7 +342,7 @@ font-family: 'Do Hyeon', sans-serif;
 }
 .fr1{ font-family: 'Do Hyeon', sans-serif;
 color: #131e22;  display: inline-block; vertical-align: 5vw;
-margin-top: 5vw; font-size: 1.5rem; text-align: right;
+margin-top: 5vw;  text-align: right;
  border: 2px solid #131e22;
  }
 
@@ -209,37 +354,35 @@ margin-top: 5vw; font-size: 1.5rem; text-align: right;
      }
 
 #reviewChildren2 { display: none; }
-.reviewChildren2 { width: 100%; height: 760px; background-color: #ffdede; }
+.reviewChildren2 { width: 100%; background-color: #ffdede; }
 .up {width: 40px; display: table-cell; margin: 0 auto; padding-top: 20px;}
 
 
 .fr3 { font-family: 'Do Hyeon', sans-serif; display: inline-block;
 color: #131e22; text-align: right;
  border: 2px solid #131e22;
- }
-
-.more3 { margin-left: 40vw;}
+}
 
 .review_input { width: 100%; height: 100px; display: block;
 clear: both; content: ""; position: relative; text-align: center;}
-#review_input {display: inherit; width: 300px; height: 40px;
+#review_input {display: inherit; height: 40px;
 background-color: #cb9ca1; font-size: 2.5rem;
 position: absolute; }
 .container #book { width: 120px; height: 50px;
-   background-color: #131e22; border-radius: 50px; margin-left: 9rem;
- margin-top: 8rem; }
+   background-color: #131e22; border-radius: 50px;
+ }
  a { text-decoration: none; }
 #book>a{ font-family: 'Do Hyeon', sans-serif;
 font-weight: bold; font-size: 1.2rem; line-height: 260%;
   color:#fff; margin-left: 1.7rem;
 }
 
-#more { display: none; margin-top: 2.5rem;}
+#more { display: none;}
 .container .more, .more3 { width: 120px; height: 50px;
    background-color: #131e22; border-radius: 50px;
    text-align: center; position: absolute;
   }
-.container .more {  z-index: 50; top: 560px; margin-left: 9rem; }
+.container .more {  z-index: 50;  margin-left: 9rem; }
  a { text-decoration: none; }
 .more>a, .more3>a{ font-family: 'Do Hyeon',
   sans-serif; font-weight: bold; font-size: 1.3rem; line-height: 250%;
@@ -249,7 +392,7 @@ font-weight: bold; font-size: 1.2rem; line-height: 260%;
 .container2 {height: 1px;}
 
 #modal { display: none; }
-.modal-popup { position: fixed; z-index: 9999; top: 18%; left: 6%;
+.modal-popup { position: fixed; z-index: 9999;
  width: 350px; height: 300px; }
 .line{ width: 350px; height: 300px;
   border: 3px solid #131e22; position: relative;
@@ -272,5 +415,5 @@ border-radius: 11px;  }
  #ok>a{color: #fff;}
  .x { width: 30px; height: 30px; border-radius: 70%; font-size: 1.4rem; text-align: center;
    color: #fff; background-color:  #9796f0;
-position: absolute; bottom: -15; left: 40%; }
+position: absolute; bottom: -15; }
  .x > p { line-height: 120%;}
