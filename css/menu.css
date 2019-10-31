@@ -1,18 +1,57 @@
 html { font-size: 16px;}
-.food_img { width: 375px; height: 300px; margin: 0 auto;}
+@media (min-width: 1025px) and (max-width: 1920px) {
+  .food_img {
+    margin: 0 auto;
+  }
+  .food_img > p{
+    margin: 2vw auto;
+  }
+  .recipe {
+    margin: 8vw auto;
+  }
+  .choice {
+    margin-top: 2vw;
+  }
+  .recipe li {
+    margin: 10px 20px;
+  }
+  .first_li, .second_li, .third_li, .fourth_li {
+    margin-top: 1vw;
+  }
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+  .food_img {
+    margin: 0 auto;
+  }
+  .food_img > p{
+    margin: 4vw auto;
+  }
+  .recipe {
+    margin: 14vw auto;
+  }
+  .choice {
+    margin-top: 6vw;
+  }
+  .recipe li {
+    margin: 1.042vw 4.167vw;
+  }
+  .first_li, .second_li, .third_li, .fourth_li {
+    margin-top: 2vw;
+  }
+}
+.food_img { width: 375px; height: 300px; }
 .food_img > img { height:100%; }
 .food_img > p{ width: 180px; font-family: 'Do Hyeon', sans-serif; font-size: 1.75rem;
-margin: 4vw auto; border-bottom: 3px solid #9796f0; text-align: center;}
-.recipe { width: 375px; height: 330px; background-color: #dbdbdb;
-margin: 14vw auto;}
+   border-bottom: 3px solid #9796f0; text-align: center;}
+.recipe { width: 375px; height: 330px; background-color: #dbdbdb; }
 .button { width: 50px; height: 50px; font-size: 3.25rem; background-color: #c48b9f;
 border-radius: 50%; margin: -8% 40%; border: none; }
 .button>a{color: #131e22; text-decoration: none; line-height: 70%;}
-.recipe li { width: 320px; height: 60px; margin: 1.042vw 4.167vw; line-height: 60px;}
+.recipe li { width: 320px; height: 60px; line-height: 60px;}
 .recipe p {font-family: 'Noto Sans KR', sans-serif; font-size: 1rem;}
-.choice { width: 100%; height: 100%; margin-top: 6vw;}
+.choice { width: 100%; height: 100%; }
 .fl {float: left;}
-.first_li, .second_li, .third_li, .fourth_li {float: right; margin-top: 2vw; }
+.first_li, .second_li, .third_li, .fourth_li {float: right;  }
 .first_li > p, .second_li > p, .third_li > p, .fourth_li > p{ line-height: 28px; border: 1px solid #808e95;
 background-color: #fff;}
 .first_li_child, .second_li_child, .third_li_child, .fourth_li_child { float: left; }

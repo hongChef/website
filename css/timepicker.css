@@ -1,12 +1,44 @@
+@media (min-width: 1601px) and (max-width: 1920px) {
+  .timepiki {
+    margin: 0 auto;
+  }
+  .time > img {
+    margin: 20px;
+  }
+  hr {
+     margin-top: 12vw; margin-bottom: 6vw;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .timepiki {
+    margin: 10vw auto;
+  }
+  .time > img {
+    margin: 20px;
+  }
+  hr {
+     margin-top: 12vw; margin-bottom: 6vw;
+  }
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+  .timepiki {
+    margin: 15vw auto;
+  }
+  .time > img {
+    margin: 20px;
+  }
+  hr {
+     margin-top: 30vw; margin-bottom: 8vw;
+  }
+}
 .timepiki { width: 280px; height: 200px; border: 1px solid #333;
-background-color: #fff; margin: 15vw auto; background-color: #dbdbdb; }
+background-color: #fff; background-color: #dbdbdb; }
 .time_title { width: 220px; font-family: 'Do Hyeon', sans-serif; font-size: 1.75rem;
-margin: 4vw auto; border-bottom: 3px solid #9796f0; text-align: center; }
+ border-bottom: 3px solid #9796f0; text-align: center; margin: 4vw auto;}
 .time { width: 100px; height: 100px; margin: 0 auto; text-align: center;}
-.time > img { width: 40px; height: 40px; margin: 20px;}
+.time > img { width: 40px; height: 40px; }
 #timearea {font-size: 2rem; text-align: center;}
-hr { margin-top: 30vw; margin-bottom: 8vw;}
-.time_pick { width: 200px; height: 70px; margin: 0 15%;
+.time_pick { width: 200px; height: 70px;  margin: 0 15%;
    background-color: #131e22; border-radius: 50px;  }
 .time_pick > a { font-family: 'Do Hyeon', sans-serif;
 font-weight: bold; font-size: 2rem; line-height: 200%;

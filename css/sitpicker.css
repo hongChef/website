@@ -1,5 +1,37 @@
+@media (min-width: 1501px) and (max-width: 1920px) {
+  .sit_title {
+    margin: 5vw auto;
+  }
+  .sit_pick {
+    margin: 120 43%;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1500px) {
+  .sit_title {
+    margin: 6vw auto;
+  }
+  .sit_pick {
+    margin:100 43%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1000px) {
+  .sit_title {
+    margin: 10vw auto;
+  }
+  .sit_pick {
+    margin: 80 38%;
+  }
+}
+@media (min-width: 320px) and (max-width: 899px) {
+  .sit_title {
+    margin: 10vw auto;
+  }
+  .sit_pick {
+    margin: 45 35%;
+  }
+}
   .sit_title { width: 300px; font-family: 'Do Hyeon', sans-serif; font-size: 2rem;
-margin: 10vw auto; border-bottom: 3px solid #9796f0; text-align: center; }
+ border-bottom: 3px solid #9796f0; text-align: center; }
 .sit_table {
   width: 450px; height: 350px;
   margin: 0 auto; background-color: #fff; border: 1px solid #131e22;
@@ -18,7 +50,7 @@ clear: both; content: "";  float: left; margin: 20px 100px;
 .two_sit { width: 90px; height: 45px; float: left;
 margin: 50px 10px; }
 .sit_pick { width: 200px; height: 70px; position: absolute;
-margin: 45 35%; background-color: #131e22; border-radius: 50px;  }
+ background-color: #131e22; border-radius: 50px;  }
 .sit_pick > a { font-family: 'Do Hyeon', sans-serif;
 font-weight: bold; font-size: 2rem; line-height: 200%;
   color:#fff;  text-decoration: none;}

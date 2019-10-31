@@ -1,7 +1,7 @@
 /* owl-kitchen main css */
 html { scroll-behavior: smooth; font-size: 16px;}
 body { margin: 0; padding: 0; box-sizing: border-box;  }
-header { width: 100%; height: 12vw; background: #9796f0;  /* fallback for old browsers */
+header { width: 100%; background: #9796f0;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -20,23 +20,25 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
 ## Screen = B/w 1025px to 1280px
 */
 
- @media (min-width: 1025px) and (max-width: 1280px) {
+ @media (min-width: 1025px) and (max-width: 1920px) {
    header {
      height: 54px;
    }
    .menu-bar {
      height: 800px;
    }
+
    .logo >img {
      width: 80px;
    }
+   .tabBar { margin-left: 40px; }
    .tabBar > span { width: 30px; height: 3px;}
-   .icon { width: 100px;}
+   .icon { width: 100px; text-align: right; margin-right: 40px;}
    .icon > img{ width: 41px;}
-   .food, .user > p {margin: 0 13.3vw}
+   .food, .user > p {margin: 0 auto;}
    .food img { height: 200px;}
 
-   .container { height: 800px; }
+
    .user { height: 800px; }
 }
 
@@ -63,7 +65,7 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
 .food, .user > p {margin: 0 28vw}
 .food img { height: 200px;}
 
-.container { height: 800px; }
+
 .user { height: 800px; }
 }
 
@@ -89,7 +91,7 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
 .icon > img{ width: 41px;}
 .food, .user > p {margin: 0 13.3vw}
 .food img { height: 200px;}
-.container { height: 670px; }
+
 .user { height: 770px; }
 }
 
@@ -112,10 +114,10 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
 .tabBar > span { width: 30px; height: 2px;}
 .icon { width: 90px;}
 .icon > img{ width: 40px; margin-top: -5px;}
-.user > p { margin-left: 9.756vw}
-.food { margin: 0 9.756vw;}
+
+.food { margin: 0 auto;}
 .food img { height: 150px;}
-.container { height: 670px; }
+
 }
 
 header > ul { height: inherit; display: flex; align-items: center;
@@ -151,6 +153,7 @@ transition: 0.2s;}
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   background: #9796f0;
   transition: 0.5s;
   transform: translateX(-100%);
@@ -165,6 +168,7 @@ transition: 0.2s;}
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   transition: 0.5s;
   transform: translateX(200%);
 }
@@ -181,8 +185,9 @@ align-content: center; }
   color: #333; font-size: 1rem;}
 .info { width: inherit; height: inherit; margin-top: 30px;}
 .info span { font-size: 1.7rem; }
-.user > p { font-size: 1rem; }
-.food { width: inherit; height: 200px; display: flex;}
+.user > p { font-size: 1rem; text-align: center; }
+.food { width: 310px; height: 200px;
+  padding-top: 20px; display: flex;}
 
 
 .active { transform: translateX(0); }
@@ -217,6 +222,6 @@ align-content: center; }
 
 
 
-.container { width: 100%;  background-color: #ffdede;
+.container { width: 100%; height: calc(100% - 54px); background-color: #ffdede;
   position: relative; overflow-y: scroll; overflow-x: hidden;
 }
