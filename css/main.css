@@ -367,10 +367,10 @@ html {font-size: 16px;}
     margin-top: 40px;
   }
   .container #book {
-    bottom: 60; left: 37%;
+    bottom: 10; left: 37%;
   }
   .container .more {
-    bottom: 60; left: 37%;
+    bottom: 10; left: 37%;
   }
   .reviewChildren2 {
     height: 760px;
