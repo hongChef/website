@@ -231,7 +231,7 @@ html {font-size: 16px;}
     padding-top: 10px;
     padding-left: 40px;
     margin-left: 40px;
-    vertical-align: 50px;
+    vertical-align: 30px;
     margin-top: 5vw;
   }
   .reviewChildren { width: inherit; height: inherit;}
@@ -298,7 +298,7 @@ html {font-size: 16px;}
     font-size: 1.5rem;
     padding-top: 10px;
     padding-left: 40px;
-    vertical-align: 50px;
+    vertical-align: 30px;
     margin-top: 5vw;
   }
   .reviewChildren2 {
